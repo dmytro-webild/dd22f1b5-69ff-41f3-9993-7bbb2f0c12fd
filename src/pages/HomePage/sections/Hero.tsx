@@ -14,7 +14,7 @@ export default function HeroSection(): React.JSX.Element {
         description="Welcome to Ware Coin Laundry, a family-owned business under 2nd ownership. We provide a clean, modern self-service facility equipped with an on-site ATM, high-capacity machines, and convenient payment options."
         primaryButton={{
             text: "Get Directions",
-            href: "#contact",
+            href: "https://www.google.com/maps/search/?api=1&query=142+West+St,+Ware,+MA+01082",
           }}
         secondaryButton={{
             text: "Call Us Now",

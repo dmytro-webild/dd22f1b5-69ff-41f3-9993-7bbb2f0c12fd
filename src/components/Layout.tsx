@@ -45,7 +45,7 @@ export default function Layout() {
       logo="Ware Coin Laundry"
       ctaButton={{
         text: "Get Directions",
-        href: "#contact",
+        href: "https://www.google.com/maps/search/?api=1&query=142+West+St,+Ware,+MA+01082",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>
@@ -60,8 +60,8 @@ export default function Layout() {
           title: "Location",
           items: [
             {
-              label: "123 Main St, Ware, MA 01082",
-              href: "#",
+              label: "142 West St, Ware, MA 01082",
+              href: "https://www.google.com/maps/search/?api=1&query=142+West+St,+Ware,+MA+01082",
             },
           ],
         },
