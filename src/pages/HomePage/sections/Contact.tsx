@@ -18,7 +18,7 @@ export default function ContactSection(): React.JSX.Element {
           }}
           secondaryButton={{
             text: "Get Directions",
-            href: "https://maps.google.com/?q=Laundromat+Ware+MA",
+            href: "https://www.google.com/maps/search/?api=1&query=142+West+St,+Ware,+MA+01082",
           }}
           textAnimation="fade-blur"
         />
