@@ -11,7 +11,7 @@ export default function HeroSection(): React.JSX.Element {
         <SectionErrorBoundary name="hero">
               <HeroBillboardBrand
         brand="Ware Coin Laundry"
-        description="Clean Clothes. Easy Laundry. Right Here in Ware, MA. Variety size machines from 20 to 80 pounds available, open 5:00 AM – 10:00 PM."
+        description="Welcome to Ware Coin Laundry, a family-owned business under 2nd ownership. We provide a clean, modern self-service facility equipped with an on-site ATM, high-capacity machines, and convenient payment options."
         primaryButton={{
             text: "Get Directions",
             href: "#contact",
