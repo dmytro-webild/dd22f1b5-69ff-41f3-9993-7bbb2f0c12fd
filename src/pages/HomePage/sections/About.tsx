@@ -3,7 +3,6 @@
 
 import React from 'react';
 import AboutFeaturesSplit from '@/components/sections/about/AboutFeaturesSplit';
-import { CheckCircle, Clock, Smile } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function AboutSection(): React.JSX.Element {
