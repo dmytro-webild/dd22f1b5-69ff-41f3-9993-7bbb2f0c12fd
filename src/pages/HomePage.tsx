@@ -13,7 +13,8 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import DexterAppSection from './HomePage/sections/DexterApp';export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
@@ -21,6 +22,7 @@ export default function HomePage(): React.JSX.Element {
   <AboutSection />
 
   <ServicesSection />
+      <DexterAppSection />
 
   <MetricsSection />
 
