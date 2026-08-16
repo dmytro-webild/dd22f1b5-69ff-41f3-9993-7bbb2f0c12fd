@@ -14,7 +14,7 @@ export default function ServicesSection(): React.JSX.Element {
         title="Comprehensive Laundry Solutions"
         description="Self-service coin and mobile pay laundry equipped with 20 to 80 lb machines, modern amenities, and 24/7 security monitoring."
         negativeItems={["No wash-and-dry services available (Self-service only)","No pets allowed (Service animals only)","No after-hours entry (Open 5:00 AM - 10:00 PM)"]}
-        positiveItems={["20 to 80 lb capacity washers and dryers","Pay using Dexter Pay or coins","24/7 video surveillance security","Air conditioning & Free Wi-Fi","Open daily from 5:00 AM to 10:00 PM","Service animals welcome"]}
+        positiveItems={["20 to 80 lb capacity washers","Pay using Dexter Pay or coins","24/7 video surveillance security","Air conditioning & Free Wi-Fi","Open daily from 5:00 AM to 10:00 PM","Service animals welcome"]}
         textAnimation="slide-up"
       />
         </SectionErrorBoundary>

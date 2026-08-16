@@ -7,7 +7,7 @@ import { CheckCircle, Clock, Smartphone, ShieldCheck, Wifi, Ban } from "lucide-r
 
 export default function AboutSection(): React.JSX.Element {
   const items = [
-    { title: "20 - 80 lb Machines", description: "Washers and dryers ranging from 20 to 80 lbs for all load sizes.", icon: CheckCircle },
+    { title: "20 - 80 lb Machines", description: "Washers ranging from 20 to 80 lbs for all load sizes.", icon: CheckCircle },
     { title: "Hours: 5:00 AM - 10:00 PM", description: "Open daily from 5:00 AM to 10:00 PM.", icon: Clock },
     { title: "Dexter Pay Enabled", description: "Pay easily using Dexter Pay on your mobile device.", icon: Smartphone },
     { title: "24/7 Video Surveillance", description: "Monitored 24/7 for your security and safety.", icon: ShieldCheck },
