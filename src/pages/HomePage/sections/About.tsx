@@ -31,7 +31,7 @@ export default function AboutSection(): React.JSX.Element {
               description: "Safe, clean, and welcoming environment for all.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/medium-shot-man-garage-sale_23-2150574532.jpg?_wi=1"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408336-qal2upxx.png"
           textAnimation="fade-blur"
         />
         </SectionErrorBoundary>
