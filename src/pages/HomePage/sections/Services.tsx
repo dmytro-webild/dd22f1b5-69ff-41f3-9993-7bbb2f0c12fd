@@ -10,22 +10,13 @@ export default function ServicesSection(): React.JSX.Element {
     <div id="services" data-section="services">
         <SectionErrorBoundary name="services">
               <FeaturesComparison
-          tag="Our Services"
-          title="Comprehensive Laundry Solutions"
-          description="Whether it's a quick wash or a full weekend's load, we've got you covered."
-          negativeItems={[
-            "High wait times",
-            "Old, dirty machines",
-            "Uncomfortable waiting areas",
-          ]}
-          positiveItems={[
-            "Clean, well-maintained facility",
-            "Large-capacity machines available",
-            "Safe, brightly lit atmosphere",
-            "Quick, efficient cycles",
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Our Services"
+        title="Comprehensive Laundry Solutions"
+        description="Self-service coin and mobile pay laundry equipped with 20 to 80 lb machines, modern amenities, and 24/7 security monitoring."
+        negativeItems={["No wash-and-dry services available (Self-service only)","No pets allowed (Service animals only)","No after-hours entry (Open 5:00 AM - 10:00 PM)"]}
+        positiveItems={["20 to 80 lb capacity washers and dryers","Pay using Dexter Pay or coins","24/7 video surveillance security","Air conditioning & Free Wi-Fi","Open daily from 5:00 AM to 10:00 PM","Service animals welcome"]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );

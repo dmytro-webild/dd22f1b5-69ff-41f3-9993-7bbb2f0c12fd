@@ -10,19 +10,19 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroBillboardBrand
-          brand="Coin Laundry"
-          description="Clean Clothes. Easy Laundry. Right Here in Ware, MA. Your friendly local spot for quick, reliable wash-and-dry services."
-          primaryButton={{
+        brand="Ware Coin Laundry"
+        description="Clean Clothes. Easy Laundry. Right Here in Ware, MA. Variety size machines from 20 to 80 pounds available, open 5:00 AM – 10:00 PM."
+        primaryButton={{
             text: "Get Directions",
             href: "#contact",
           }}
-          secondaryButton={{
+        secondaryButton={{
             text: "Call Us Now",
             href: "tel:4135550123",
           }}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408338-2m3c20wj.jpg"
-          textAnimation="slide-up"
-        />
+        imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408338-2m3c20wj.jpg"
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
