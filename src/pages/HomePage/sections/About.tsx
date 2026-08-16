@@ -28,7 +28,7 @@ export default function AboutSection(): React.JSX.Element {
                 Convenient, Clean, &amp; Reliable Local Laundry
               </h2>
               <p className="md:max-w-7/10 text-lg md:text-xl leading-snug text-accent mt-2">
-                We offer self-service laundry with 20 to 80 lb capacity machines. Enjoy Dexter Pay, free Wi-Fi, air conditioning, and 24/7 video surveillance in a clean, comfortable environment.
+                Designed for comfort and efficiency, our facility provides a clean, well-maintained environment for all your laundry needs.
               </p>
             </div>
 
