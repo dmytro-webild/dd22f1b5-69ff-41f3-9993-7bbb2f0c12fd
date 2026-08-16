@@ -18,7 +18,7 @@ export default function HeroSection(): React.JSX.Element {
           }}
         secondaryButton={{
             text: "Call Us Now",
-            href: "tel:4135550123",
+            href: "tel:4133080096",
           }}
         imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408338-2m3c20wj.jpg"
         textAnimation="slide-up"

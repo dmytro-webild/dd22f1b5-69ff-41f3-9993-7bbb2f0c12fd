@@ -13,8 +13,8 @@ export default function ContactSection(): React.JSX.Element {
           tag="Visit Us"
           text="Located in the heart of Ware. Come visit us today for a clean, easy, and stress-free laundry experience."
           primaryButton={{
-            text: "Call Now: 413-555-0123",
-            href: "tel:4135550123",
+            text: "Call Now: 413-308-0096",
+            href: "tel:4133080096",
           }}
           secondaryButton={{
             text: "Get Directions",
