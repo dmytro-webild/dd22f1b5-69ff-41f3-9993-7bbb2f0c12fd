@@ -3,7 +3,6 @@
 
 import React from 'react';
 import AboutFeaturesSplit from '@/components/sections/about/AboutFeaturesSplit';
-import { CheckCircle, Clock, Smile } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function AboutSection(): React.JSX.Element {
@@ -11,29 +10,13 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutFeaturesSplit
-          tag="About Us"
-          title="Convenient, Clean, & Reliable Local Laundry"
-          description="We believe doing laundry should be the simplest part of your day. Located in the heart of Ware, our laundromat is designed to be family-friendly, well-lit, and clean, providing you with a comfortable environment while you take care of your laundry needs."
-          items={[
-            {
-              icon: CheckCircle,
-              title: "Modern Machines",
-              description: "High-efficiency washers and dryers for all load sizes.",
-            },
-            {
-              icon: Clock,
-              title: "Flexible Hours",
-              description: "Open early and late to fit your busy schedule.",
-            },
-            {
-              icon: Smile,
-              title: "Family Friendly",
-              description: "Safe, clean, and welcoming environment for all.",
-            },
-          ]}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408336-qal2upxx.png"
-          textAnimation="fade-blur"
-        />
+        tag="About Us"
+        title="Convenient, Clean, & Reliable Local Laundry"
+        description="We offer self-service laundry with 20 to 80 lb capacity machines. Enjoy Dexter Pay, free Wi-Fi, air conditioning, and 24/7 video surveillance in a clean, comfortable environment."
+        items={[{"description":"Washers and dryers ranging from 20 to 80 lbs for all load sizes.","title":"20 - 80 lb Machines","icon":"CheckCircle"},{"title":"Hours: 5:00 AM - 10:00 PM","description":"Open daily from 5:00 AM to 10:00 PM.","icon":"Clock"},{"icon":"Smile","title":"Dexter Pay Enabled","description":"Pay easily using Dexter Pay on your mobile device."},{"title":"24/7 Video Surveillance","description":"Monitored 24/7 for your security and safety.","icon":"CheckCircle"},{"icon":"Smile","description":"Stay cool and connected with air conditioning and free Wi-Fi.","title":"AC & Free Wi-Fi"},{"title":"Service Animals Only","icon":"CheckCircle","description":"No pets allowed on premises, except for service animals."}]}
+        imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408336-qal2upxx.png"
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );

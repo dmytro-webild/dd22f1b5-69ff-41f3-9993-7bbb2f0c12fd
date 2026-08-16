@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFullscreenStatic
-      logo="Coin Laundry"
+      logo="Ware Coin Laundry"
       ctaButton={{
         text: "Get Directions",
         href: "#contact",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleMedia
-      brand="Coin Laundry Ware"
+      brand="Ware Coin Laundry"
       columns={[
         {
           title: "Location",
@@ -69,13 +69,13 @@ export default function Layout() {
           title: "Hours",
           items: [
             {
-              label: "Mon-Sun: 7am - 10pm",
+              label: "Mon-Sun: 5:00am - 10:00pm",
               href: "#",
             },
           ],
         },
       ]}
-      copyright="© 2024 Coin Laundry Ware. All rights reserved."
+      copyright="© 2024 Ware Coin Laundry. All rights reserved."
       links={[
         {
           label: "Privacy Policy",

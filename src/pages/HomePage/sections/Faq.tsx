@@ -10,39 +10,12 @@ export default function FaqSection(): React.JSX.Element {
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqTabbedAccordion
-          tag="Common Questions"
-          title="We're Here to Help"
-          description="Have questions about your visit? Find answers below."
-          categories={[
-            {
-              name: "General",
-              items: [
-                {
-                  question: "Where are you located?",
-                  answer: "We are centrally located in downtown Ware, MA.",
-                },
-                {
-                  question: "Are you open on weekends?",
-                  answer: "Yes, we are open seven days a week.",
-                },
-              ],
-            },
-            {
-              name: "Services",
-              items: [
-                {
-                  question: "Do you offer wash-dry-fold?",
-                  answer: "Please inquire at our service desk regarding full service options.",
-                },
-                {
-                  question: "Do you have change machines?",
-                  answer: "Yes, change machines are available onsite.",
-                },
-              ],
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Common Questions"
+        title="We're Here to Help"
+        description="Have questions about your visit? Find answers below."
+        categories={[{"name":"General","items":[{"question":"Where are you located?","answer":"We are located at 123 Main St in downtown Ware, MA."},{"question":"What are your operating hours?","answer":"We are open 7 days a week from 5:00 AM to 10:00 PM."},{"question":"Are pets allowed?","answer":"No pets are permitted in the facility, with the exception of service animals."}]},{"name":"Services & Amenities","items":[{"question":"Do you offer wash-and-dry services?","answer":"We do not offer wash-and-dry services. We provide self-service washing and drying equipment."},{"answer":"Yes! We feature machines ranging from 20 lbs up to 80 lbs to handle both small loads and large bulky items.","question":"What machine sizes are available?"},{"answer":"Yes, you can pay using Dexter Pay on your smartphone or with traditional quarters/coins.","question":"How can I pay for machines?"},{"question":"What amenities are provided?","answer":"Yes, our facility is equipped with full air conditioning and free Wi-Fi for your convenience, as well as 24/7 video surveillance for safety."}]}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
