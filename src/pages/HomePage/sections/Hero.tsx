@@ -20,7 +20,7 @@ export default function HeroSection(): React.JSX.Element {
             text: "Call Us Now",
             href: "tel:4135550123",
           }}
-          imageSrc="http://img.b2bpic.net/free-photo/person-inside-laundromat-with-washing-machines_23-2151176217.jpg?_wi=1"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408338-2m3c20wj.jpg"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
