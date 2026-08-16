@@ -2,22 +2,53 @@
 // file as the canonical source for the "about" section.
 
 import React from 'react';
-import AboutFeaturesSplit from '@/components/sections/about/AboutFeaturesSplit';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
+import { CheckCircle, Clock, Smartphone, ShieldCheck, Wifi, Ban } from "lucide-react";
 
 export default function AboutSection(): React.JSX.Element {
+  const items = [
+    { title: "20 - 80 lb Machines", description: "Washers and dryers ranging from 20 to 80 lbs for all load sizes.", icon: CheckCircle },
+    { title: "Hours: 5:00 AM - 10:00 PM", description: "Open daily from 5:00 AM to 10:00 PM.", icon: Clock },
+    { title: "Dexter Pay Enabled", description: "Pay easily using Dexter Pay on your mobile device.", icon: Smartphone },
+    { title: "24/7 Video Surveillance", description: "Monitored 24/7 for your security and safety.", icon: ShieldCheck },
+    { title: "AC & Free Wi-Fi", description: "Stay cool and connected with air conditioning and free Wi-Fi.", icon: Wifi },
+    { title: "Service Animals Only", description: "No pets allowed on premises, except for service animals.", icon: Ban },
+  ];
+
   return (
-    <div id="about" data-section="about">
-        <SectionErrorBoundary name="about">
-              <AboutFeaturesSplit
-        tag="About Us"
-        title="Convenient, Clean, & Reliable Local Laundry"
-        description="We offer self-service laundry with 20 to 80 lb capacity machines. Enjoy Dexter Pay, free Wi-Fi, air conditioning, and 24/7 video surveillance in a clean, comfortable environment."
-        items={[{"description":"Washers and dryers ranging from 20 to 80 lbs for all load sizes.","title":"20 - 80 lb Machines","icon":"CheckCircle"},{"title":"Hours: 5:00 AM - 10:00 PM","description":"Open daily from 5:00 AM to 10:00 PM.","icon":"Clock"},{"icon":"Smile","title":"Dexter Pay Enabled","description":"Pay easily using Dexter Pay on your mobile device."},{"title":"24/7 Video Surveillance","description":"Monitored 24/7 for your security and safety.","icon":"CheckCircle"},{"icon":"Smile","description":"Stay cool and connected with air conditioning and free Wi-Fi.","title":"AC & Free Wi-Fi"},{"title":"Service Animals Only","icon":"CheckCircle","description":"No pets allowed on premises, except for service animals."}]}
-        imageSrc="https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786844408336-qal2upxx.png"
-        textAnimation="fade-blur"
-      />
-        </SectionErrorBoundary>
-      </div>
+    <div id="about" data-webild-section="about" data-section="about">
+      <SectionErrorBoundary name="about">
+        <section aria-label="About section" className="py-20">
+          <div className="flex flex-col gap-8 md:gap-10 mx-auto w-content-width">
+            <div className="flex flex-col items-center gap-2 text-center">
+              <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
+                <p>About Us</p>
+              </div>
+              <h2 className="md:max-w-8/10 text-4xl md:text-6xl 2xl:text-7xl leading-[1.15] font-semibold text-foreground">
+                Convenient, Clean, &amp; Reliable Local Laundry
+              </h2>
+              <p className="md:max-w-7/10 text-lg md:text-xl leading-snug text-accent mt-2">
+                We offer self-service laundry with 20 to 80 lb capacity machines. Enjoy Dexter Pay, free Wi-Fi, air conditioning, and 24/7 video surveillance in a clean, comfortable environment.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+              {items.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <div key={item.title} className="card rounded p-6 flex flex-col gap-3">
+                    <div className="flex items-center justify-center shrink-0 size-10 primary-button rounded">
+                      <Icon className="h-5 w-5 text-primary-cta-text" strokeWidth={1.5} />
+                    </div>
+                    <h3 className="text-xl font-semibold text-foreground">{item.title}</h3>
+                    <p className="text-base leading-snug text-accent">{item.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      </SectionErrorBoundary>
+    </div>
   );
 }
