@@ -24,7 +24,7 @@ export default function HomePage() {
         text: "Call Us Now",
         href: "tel:4135550123",
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/person-inside-laundromat-with-washing-machines_23-2151176217.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/person-inside-laundromat-with-washing-machines_23-2151176217.jpg?_wi=1"
       textAnimation="slide-up"
     />
     </SectionErrorBoundary>
@@ -53,7 +53,7 @@ export default function HomePage() {
           description: "Safe, clean, and welcoming environment for all.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-man-garage-sale_23-2150574532.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-man-garage-sale_23-2150574532.jpg?_wi=1"
       textAnimation="fade-blur"
     />
     </SectionErrorBoundary>
@@ -132,21 +132,21 @@ export default function HomePage() {
           role: "Busy Mom",
           quote: "Safe and bright environment for my family. Highly recommend.",
           rating: 5,
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786843820160-03k1rpba.png",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3HyWygIw3kCD5enT6ADPad4uVIu/uploaded-1786843820160-03k1rpba.png?_wi=1",
         },
         {
           name: "David W.",
           role: "Ware Resident",
           quote: "Best laundromat near me. Always well maintained.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/person-inside-laundromat-with-washing-machines_23-2151176217.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/person-inside-laundromat-with-washing-machines_23-2151176217.jpg?_wi=2",
         },
         {
           name: "Emma H.",
           role: "Student",
           quote: "Affordable and very user-friendly equipment.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-garage-sale_23-2150574532.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-garage-sale_23-2150574532.jpg?_wi=2",
         },
       ]}
       textAnimation="slide-up"
